@@ -7,16 +7,40 @@
 //
 
 import UIKit
+import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var isRequestAppear=false
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /* Start Register User Notification Setting */
+        let application = UIApplication.shared
+        if #available(iOS 10.0, *)
+        {
+            let center=UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.badge,.alert,.sound], completionHandler: { (granted, error) in })
+        }
+        else
+        {
+            application.registerUserNotificationSettings(UIUserNotificationSettings(types:[.alert,.badge,.sound],categories:nil))
+        }
+        application.registerForRemoteNotifications()
+        
+        /* End Register User Notification Setting */
         return true
+    }
+    
+    class func getDelegate() -> AppDelegate
+    {
+        return UIApplication.shared.delegate as! AppDelegate
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +64,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 
