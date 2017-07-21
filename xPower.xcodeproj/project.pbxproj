@@ -53,7 +53,7 @@
 		10C0CEFB1F21A0A200911A01 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED21F21A0A200911A01 /* SettingViewController.swift */; };
 		10C0CEFD1F21A0A200911A01 /* String+AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED41F21A0A200911A01 /* String+AES.swift */; };
 		10C0CEFE1F21A0A200911A01 /* TasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED51F21A0A200911A01 /* TasksList.swift */; };
-		10C0CF0A1F21A75F00911A01 /* XPower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */; };
+		10C0CF0A1F21A75F00911A01 /* xPower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CF071F21A75F00911A01 /* xPower.xcdatamodeld */; };
 		10C0CF161F22422700911A01 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CF151F22422700911A01 /* KeychainWrapper.m */; };
 		3D2FFE460BFB6C28C20449CC /* Pods_xPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD38B51BF39A63186F559C5 /* Pods_xPower.framework */; };
 /* End PBXBuildFile section */
@@ -69,51 +69,51 @@
 		101B6FCB1F1D457B0082B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101B6FCD1F1D457B0082B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C0CEA11F1FFFB800911A01 /* ImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewExtension.swift; path = xPower/ImageViewExtension.swift; sourceTree = "<group>"; };
-		10C0CEA31F20037B00911A01 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
-		10C0CEA51F20038E00911A01 /* WebServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceFactory.swift; sourceTree = "<group>"; };
-		10C0CEA71F2004AF00911A01 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		10C0CEA31F20037B00911A01 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServiceManager.swift; path = xPower/WebServiceManager.swift; sourceTree = "<group>"; };
+		10C0CEA51F20038E00911A01 /* WebServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServiceFactory.swift; path = xPower/WebServiceFactory.swift; sourceTree = "<group>"; };
+		10C0CEA71F2004AF00911A01 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModel.swift; path = xPower/LoginModel.swift; sourceTree = "<group>"; };
 		10C0CEA91F20104800911A01 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = xPower/Constants.swift; sourceTree = "<group>"; };
 		10C0CEAB1F21347800911A01 /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonViewController.swift; path = xPower/CommonViewController.swift; sourceTree = "<group>"; };
-		10C0CEAD1F2136BA00911A01 /* SVMenuOptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVMenuOptionManager.swift; path = ../../../Downloads/XPower/XPower/SVMenuOptionManager.swift; sourceTree = "<group>"; };
-		10C0CEAE1F2136BA00911A01 /* SVSlidingPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVSlidingPanelViewController.swift; path = ../../../Downloads/XPower/XPower/SVSlidingPanelViewController.swift; sourceTree = "<group>"; };
+		10C0CEAD1F2136BA00911A01 /* SVMenuOptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVMenuOptionManager.swift; path = xPower/SVMenuOptionManager.swift; sourceTree = "<group>"; };
+		10C0CEAE1F2136BA00911A01 /* SVSlidingPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVSlidingPanelViewController.swift; path = xPower/SVSlidingPanelViewController.swift; sourceTree = "<group>"; };
 		10C0CEB11F21448000911A01 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = xPower/SignUpViewController.swift; sourceTree = "<group>"; };
-		10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = ../../../Downloads/XPower/XPower/ChangePasswordViewController.swift; sourceTree = "<group>"; };
-		10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGetMessageModel.swift; path = ../../../Downloads/XPower/XPower/ChatGetMessageModel.swift; sourceTree = "<group>"; };
-		10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTableViewCell.swift; path = ../../../Downloads/XPower/XPower/ChatTableViewCell.swift; sourceTree = "<group>"; };
-		10C0CEB61F21A0A200911A01 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../../../Downloads/XPower/XPower/ChatViewController.swift; sourceTree = "<group>"; };
-		10C0CEB81F21A0A200911A01 /* FavoriteGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteGetModel.swift; path = ../../../Downloads/XPower/XPower/FavoriteGetModel.swift; sourceTree = "<group>"; };
-		10C0CEB91F21A0A200911A01 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteViewController.swift; path = ../../../Downloads/XPower/XPower/FavoriteViewController.swift; sourceTree = "<group>"; };
-		10C0CEBA1F21A0A200911A01 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = ../../../Downloads/XPower/XPower/Friend.swift; sourceTree = "<group>"; };
-		10C0CEBB1F21A0A200911A01 /* FriendListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendListModel.swift; path = ../../../Downloads/XPower/XPower/FriendListModel.swift; sourceTree = "<group>"; };
-		10C0CEBC1F21A0A200911A01 /* FriendRequestListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestListModel.swift; path = ../../../Downloads/XPower/XPower/FriendRequestListModel.swift; sourceTree = "<group>"; };
-		10C0CEBD1F21A0A200911A01 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestTableViewCell.swift; path = ../../../Downloads/XPower/XPower/FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
-		10C0CEBE1F21A0A200911A01 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendViewController.swift; path = ../../../Downloads/XPower/XPower/FriendViewController.swift; sourceTree = "<group>"; };
-		10C0CEBF1F21A0A200911A01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../Downloads/XPower/XPower/HomeViewController.swift; sourceTree = "<group>"; };
-		10C0CEC11F21A0A200911A01 /* LeftMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuHeaderView.swift; path = ../../../Downloads/XPower/XPower/LeftMenuHeaderView.swift; sourceTree = "<group>"; };
-		10C0CEC21F21A0A200911A01 /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewCell.swift; path = ../../../Downloads/XPower/XPower/LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
-		10C0CEC31F21A0A200911A01 /* LeftMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewController.swift; path = ../../../Downloads/XPower/XPower/LeftMenuTableViewController.swift; sourceTree = "<group>"; };
-		10C0CEC41F21A0A200911A01 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../../../Downloads/XPower/XPower/Message.swift; sourceTree = "<group>"; };
-		10C0CEC51F21A0A200911A01 /* PointsTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointsTabbarViewController.swift; path = ../../../Downloads/XPower/XPower/PointsTabbarViewController.swift; sourceTree = "<group>"; };
-		10C0CEC61F21A0A200911A01 /* PointTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTable.swift; path = ../../../Downloads/XPower/XPower/PointTable.swift; sourceTree = "<group>"; };
-		10C0CEC71F21A0A200911A01 /* PointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTableViewCell.swift; path = ../../../Downloads/XPower/XPower/PointTableViewCell.swift; sourceTree = "<group>"; };
-		10C0CEC81F21A0A200911A01 /* PointTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PointTableViewCell.xib; path = ../../../Downloads/XPower/XPower/PointTableViewCell.xib; sourceTree = "<group>"; };
-		10C0CEC91F21A0A200911A01 /* PointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointViewController.swift; path = ../../../Downloads/XPower/XPower/PointViewController.swift; sourceTree = "<group>"; };
-		10C0CECA1F21A0A200911A01 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressCollectionViewCell.swift; path = ../../../Downloads/XPower/XPower/ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
-		10C0CECB1F21A0A200911A01 /* ProgressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressModel.swift; path = ../../../Downloads/XPower/XPower/ProgressModel.swift; sourceTree = "<group>"; };
-		10C0CECC1F21A0A200911A01 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = ../../../Downloads/XPower/XPower/ProgressView.swift; sourceTree = "<group>"; };
-		10C0CECD1F21A0A200911A01 /* RecentDeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentDeedModel.swift; path = ../../../Downloads/XPower/XPower/RecentDeedModel.swift; sourceTree = "<group>"; };
-		10C0CECE1F21A0A200911A01 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentViewController.swift; path = ../../../Downloads/XPower/XPower/RecentViewController.swift; sourceTree = "<group>"; };
-		10C0CECF1F21A0A200911A01 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = ../../../Downloads/XPower/XPower/ReportViewController.swift; sourceTree = "<group>"; };
-		10C0CED01F21A0A200911A01 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../../Downloads/XPower/XPower/Request.swift; sourceTree = "<group>"; };
-		10C0CED11F21A0A200911A01 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreViewController.swift; path = ../../../Downloads/XPower/XPower/ScoreViewController.swift; sourceTree = "<group>"; };
-		10C0CED21F21A0A200911A01 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../../../Downloads/XPower/XPower/SettingViewController.swift; sourceTree = "<group>"; };
-		10C0CED41F21A0A200911A01 /* String+AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+AES.swift"; path = "../../../Downloads/XPower/XPower/String+AES.swift"; sourceTree = "<group>"; };
-		10C0CED51F21A0A200911A01 /* TasksList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksList.swift; path = ../../../Downloads/XPower/XPower/TasksList.swift; sourceTree = "<group>"; };
-		10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XPower.xcdatamodel; sourceTree = "<group>"; };
+		10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = xPower/ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGetMessageModel.swift; path = xPower/ChatGetMessageModel.swift; sourceTree = "<group>"; };
+		10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTableViewCell.swift; path = xPower/ChatTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEB61F21A0A200911A01 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = xPower/ChatViewController.swift; sourceTree = "<group>"; };
+		10C0CEB81F21A0A200911A01 /* FavoriteGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteGetModel.swift; path = xPower/FavoriteGetModel.swift; sourceTree = "<group>"; };
+		10C0CEB91F21A0A200911A01 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteViewController.swift; path = xPower/FavoriteViewController.swift; sourceTree = "<group>"; };
+		10C0CEBA1F21A0A200911A01 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = xPower/Friend.swift; sourceTree = "<group>"; };
+		10C0CEBB1F21A0A200911A01 /* FriendListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendListModel.swift; path = xPower/FriendListModel.swift; sourceTree = "<group>"; };
+		10C0CEBC1F21A0A200911A01 /* FriendRequestListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestListModel.swift; path = xPower/FriendRequestListModel.swift; sourceTree = "<group>"; };
+		10C0CEBD1F21A0A200911A01 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestTableViewCell.swift; path = xPower/FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEBE1F21A0A200911A01 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendViewController.swift; path = xPower/FriendViewController.swift; sourceTree = "<group>"; };
+		10C0CEBF1F21A0A200911A01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = xPower/HomeViewController.swift; sourceTree = "<group>"; };
+		10C0CEC11F21A0A200911A01 /* LeftMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuHeaderView.swift; path = xPower/LeftMenuHeaderView.swift; sourceTree = "<group>"; };
+		10C0CEC21F21A0A200911A01 /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewCell.swift; path = xPower/LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEC31F21A0A200911A01 /* LeftMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewController.swift; path = xPower/LeftMenuTableViewController.swift; sourceTree = "<group>"; };
+		10C0CEC41F21A0A200911A01 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = xPower/Message.swift; sourceTree = "<group>"; };
+		10C0CEC51F21A0A200911A01 /* PointsTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointsTabbarViewController.swift; path = xPower/PointsTabbarViewController.swift; sourceTree = "<group>"; };
+		10C0CEC61F21A0A200911A01 /* PointTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTable.swift; path = xPower/PointTable.swift; sourceTree = "<group>"; };
+		10C0CEC71F21A0A200911A01 /* PointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTableViewCell.swift; path = xPower/PointTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEC81F21A0A200911A01 /* PointTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PointTableViewCell.xib; path = xPower/PointTableViewCell.xib; sourceTree = "<group>"; };
+		10C0CEC91F21A0A200911A01 /* PointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointViewController.swift; path = xPower/PointViewController.swift; sourceTree = "<group>"; };
+		10C0CECA1F21A0A200911A01 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressCollectionViewCell.swift; path = xPower/ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		10C0CECB1F21A0A200911A01 /* ProgressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressModel.swift; path = xPower/ProgressModel.swift; sourceTree = "<group>"; };
+		10C0CECC1F21A0A200911A01 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = xPower/ProgressView.swift; sourceTree = "<group>"; };
+		10C0CECD1F21A0A200911A01 /* RecentDeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentDeedModel.swift; path = xPower/RecentDeedModel.swift; sourceTree = "<group>"; };
+		10C0CECE1F21A0A200911A01 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentViewController.swift; path = xPower/RecentViewController.swift; sourceTree = "<group>"; };
+		10C0CECF1F21A0A200911A01 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = xPower/ReportViewController.swift; sourceTree = "<group>"; };
+		10C0CED01F21A0A200911A01 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = xPower/Request.swift; sourceTree = "<group>"; };
+		10C0CED11F21A0A200911A01 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreViewController.swift; path = xPower/ScoreViewController.swift; sourceTree = "<group>"; };
+		10C0CED21F21A0A200911A01 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = xPower/SettingViewController.swift; sourceTree = "<group>"; };
+		10C0CED41F21A0A200911A01 /* String+AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+AES.swift"; path = "xPower/String+AES.swift"; sourceTree = "<group>"; };
+		10C0CED51F21A0A200911A01 /* TasksList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksList.swift; path = xPower/TasksList.swift; sourceTree = "<group>"; };
+		10C0CF081F21A75F00911A01 /* xPower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xPower.xcdatamodel; sourceTree = "<group>"; };
 		10C0CF0B1F21B3ED00911A01 /* xPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xPower.entitlements; sourceTree = "<group>"; };
 		10C0CF131F22422600911A01 /* xPower-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xPower-Bridging-Header.h"; sourceTree = "<group>"; };
-		10C0CF141F22422700911A01 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainWrapper.h; path = ../../../Downloads/KeychainWrapper/KeychainWrapper.h; sourceTree = "<group>"; };
-		10C0CF151F22422700911A01 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainWrapper.m; path = ../../../Downloads/KeychainWrapper/KeychainWrapper.m; sourceTree = "<group>"; };
+		10C0CF141F22422700911A01 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainWrapper.h; path = xPower/KeychainWrapper.h; sourceTree = "<group>"; };
+		10C0CF151F22422700911A01 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainWrapper.m; path = xPower/KeychainWrapper.m; sourceTree = "<group>"; };
 		A1F0571ABCC34DAB654C757C /* Pods-xPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xPower/Pods-xPower.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +134,7 @@
 			children = (
 				10C0CF141F22422700911A01 /* KeychainWrapper.h */,
 				10C0CF151F22422700911A01 /* KeychainWrapper.m */,
-				10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */,
+				10C0CF071F21A75F00911A01 /* xPower.xcdatamodeld */,
 				10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */,
 				10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */,
 				10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */,
@@ -384,7 +384,7 @@
 				10C0CEEB1F21A0A200911A01 /* LeftMenuTableViewCell.swift in Sources */,
 				10C0CEEE1F21A0A200911A01 /* PointsTabbarViewController.swift in Sources */,
 				10C0CF161F22422700911A01 /* KeychainWrapper.m in Sources */,
-				10C0CF0A1F21A75F00911A01 /* XPower.xcdatamodeld in Sources */,
+				10C0CF0A1F21A75F00911A01 /* xPower.xcdatamodeld in Sources */,
 				10C0CEDC1F21A0A200911A01 /* ChangePasswordViewController.swift in Sources */,
 				10C0CEF41F21A0A200911A01 /* ProgressModel.swift in Sources */,
 				10C0CEE31F21A0A200911A01 /* Friend.swift in Sources */,
@@ -577,14 +577,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */ = {
+		10C0CF071F21A75F00911A01 /* xPower.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */,
+				10C0CF081F21A75F00911A01 /* xPower.xcdatamodel */,
 			);
-			currentVersion = 10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */;
-			name = XPower.xcdatamodeld;
-			path = ../../../Downloads/XPower/XPower/XPower.xcdatamodeld;
+			currentVersion = 10C0CF081F21A75F00911A01 /* xPower.xcdatamodel */;
+			name = xPower.xcdatamodeld;
+			path = ../../../Downloads/XPower/XPower/xPower.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
