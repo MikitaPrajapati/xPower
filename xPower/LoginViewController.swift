@@ -25,6 +25,25 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         imgView.loadFromFile(photo:"Tree")
         self.view.addSubview(imgView)
         self.view.sendSubview(toBack: imgView)
+        
+        //Insert data into KeychainWrapper
+        let keychain = KeychainWrapper()
+        let username = keychain.myObject(forKey: kSecAttrAccount) as? String
+    
+        if let user=username,user.characters.count > 0{
+            let isKeepLogIn = UserDefaults.standard.bool(forKey: AppDefault.KeepLogIn)
+            if isKeepLogIn {
+                let touch = UserDefaults.standard.bool(forKey: AppDefault.TouchID)
+                if  touch {
+                    self.authenticateUser()
+                }
+                else {
+                    // Load Home view
+                    CommonViewController.loadHomeView()
+                }
+            }
+        }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,6 +59,34 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func authenticateUser(){
+        let context=LAContext()
+        var error: NSError?
+        
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error)
+        {
+            let reason="Identify yourself!"
+            
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {
+                [unowned self] success, authenticationError in
+                
+                DispatchQueue.main.async {
+                    if success {
+                      CommonViewController.loadHomeView()
+                    } else {
+                        let ac = UIAlertController(title: "Authentication failed", message: "Sorry!", preferredStyle: .alert)
+                        ac.addAction(UIAlertAction(title: "OK", style: .default))
+                        self.present(ac, animated: true)
+                    }
+                }
+            }
+
+        }
+        else{
+            CommonViewController.loadHomeView()
+        }
     }
     
     @IBAction func pressClearButton(_sender:Any)
@@ -91,8 +138,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                     UserDefaults.standard.set(dictData.password,forKey:AppDefault.SelectSchool)
                 
                     //If Keep me Login Switch is On then store Switch value in UserFaults
-                
+                    if self.switchKeepLogin.isOn {
+                        UserDefaults.standard.set(true, forKey: AppDefault.KeepLogIn)
+                        UserDefaults.standard.synchronize()
+                    }
                     //Load After Login Page
+                    CommonViewController.loadHomeView()
                 }
                 else
                 {
@@ -105,6 +156,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func valueChangeKeepLogin(_ sender: Any) {
+    }
+    
+    @IBAction func tapView(_sender: UITapGestureRecognizer)
+    {
+        self.view.endEditing(true)
     }
 
 

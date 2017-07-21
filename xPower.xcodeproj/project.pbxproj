@@ -17,6 +17,44 @@
 		10C0CEA61F20038E00911A01 /* WebServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEA51F20038E00911A01 /* WebServiceFactory.swift */; };
 		10C0CEA81F2004AF00911A01 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEA71F2004AF00911A01 /* LoginModel.swift */; };
 		10C0CEAA1F20104800911A01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEA91F20104800911A01 /* Constants.swift */; };
+		10C0CEAC1F21347800911A01 /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEAB1F21347800911A01 /* CommonViewController.swift */; };
+		10C0CEAF1F2136BA00911A01 /* SVMenuOptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEAD1F2136BA00911A01 /* SVMenuOptionManager.swift */; };
+		10C0CEB01F2136BA00911A01 /* SVSlidingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEAE1F2136BA00911A01 /* SVSlidingPanelViewController.swift */; };
+		10C0CEB21F21448000911A01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB11F21448000911A01 /* SignUpViewController.swift */; };
+		10C0CEDC1F21A0A200911A01 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */; };
+		10C0CEDD1F21A0A200911A01 /* ChatGetMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */; };
+		10C0CEDE1F21A0A200911A01 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */; };
+		10C0CEDF1F21A0A200911A01 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB61F21A0A200911A01 /* ChatViewController.swift */; };
+		10C0CEE11F21A0A200911A01 /* FavoriteGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB81F21A0A200911A01 /* FavoriteGetModel.swift */; };
+		10C0CEE21F21A0A200911A01 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEB91F21A0A200911A01 /* FavoriteViewController.swift */; };
+		10C0CEE31F21A0A200911A01 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBA1F21A0A200911A01 /* Friend.swift */; };
+		10C0CEE41F21A0A200911A01 /* FriendListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBB1F21A0A200911A01 /* FriendListModel.swift */; };
+		10C0CEE51F21A0A200911A01 /* FriendRequestListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBC1F21A0A200911A01 /* FriendRequestListModel.swift */; };
+		10C0CEE61F21A0A200911A01 /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBD1F21A0A200911A01 /* FriendRequestTableViewCell.swift */; };
+		10C0CEE71F21A0A200911A01 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBE1F21A0A200911A01 /* FriendViewController.swift */; };
+		10C0CEE81F21A0A200911A01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEBF1F21A0A200911A01 /* HomeViewController.swift */; };
+		10C0CEEA1F21A0A200911A01 /* LeftMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC11F21A0A200911A01 /* LeftMenuHeaderView.swift */; };
+		10C0CEEB1F21A0A200911A01 /* LeftMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC21F21A0A200911A01 /* LeftMenuTableViewCell.swift */; };
+		10C0CEEC1F21A0A200911A01 /* LeftMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC31F21A0A200911A01 /* LeftMenuTableViewController.swift */; };
+		10C0CEED1F21A0A200911A01 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC41F21A0A200911A01 /* Message.swift */; };
+		10C0CEEE1F21A0A200911A01 /* PointsTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC51F21A0A200911A01 /* PointsTabbarViewController.swift */; };
+		10C0CEEF1F21A0A200911A01 /* PointTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC61F21A0A200911A01 /* PointTable.swift */; };
+		10C0CEF01F21A0A200911A01 /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC71F21A0A200911A01 /* PointTableViewCell.swift */; };
+		10C0CEF11F21A0A200911A01 /* PointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C0CEC81F21A0A200911A01 /* PointTableViewCell.xib */; };
+		10C0CEF21F21A0A200911A01 /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CEC91F21A0A200911A01 /* PointViewController.swift */; };
+		10C0CEF31F21A0A200911A01 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECA1F21A0A200911A01 /* ProgressCollectionViewCell.swift */; };
+		10C0CEF41F21A0A200911A01 /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECB1F21A0A200911A01 /* ProgressModel.swift */; };
+		10C0CEF51F21A0A200911A01 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECC1F21A0A200911A01 /* ProgressView.swift */; };
+		10C0CEF61F21A0A200911A01 /* RecentDeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECD1F21A0A200911A01 /* RecentDeedModel.swift */; };
+		10C0CEF71F21A0A200911A01 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECE1F21A0A200911A01 /* RecentViewController.swift */; };
+		10C0CEF81F21A0A200911A01 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CECF1F21A0A200911A01 /* ReportViewController.swift */; };
+		10C0CEF91F21A0A200911A01 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED01F21A0A200911A01 /* Request.swift */; };
+		10C0CEFA1F21A0A200911A01 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED11F21A0A200911A01 /* ScoreViewController.swift */; };
+		10C0CEFB1F21A0A200911A01 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED21F21A0A200911A01 /* SettingViewController.swift */; };
+		10C0CEFD1F21A0A200911A01 /* String+AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED41F21A0A200911A01 /* String+AES.swift */; };
+		10C0CEFE1F21A0A200911A01 /* TasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CED51F21A0A200911A01 /* TasksList.swift */; };
+		10C0CF0A1F21A75F00911A01 /* XPower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */; };
+		10C0CF161F22422700911A01 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C0CF151F22422700911A01 /* KeychainWrapper.m */; };
 		3D2FFE460BFB6C28C20449CC /* Pods_xPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD38B51BF39A63186F559C5 /* Pods_xPower.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +73,47 @@
 		10C0CEA51F20038E00911A01 /* WebServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceFactory.swift; sourceTree = "<group>"; };
 		10C0CEA71F2004AF00911A01 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		10C0CEA91F20104800911A01 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = xPower/Constants.swift; sourceTree = "<group>"; };
+		10C0CEAB1F21347800911A01 /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonViewController.swift; path = xPower/CommonViewController.swift; sourceTree = "<group>"; };
+		10C0CEAD1F2136BA00911A01 /* SVMenuOptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVMenuOptionManager.swift; path = ../../../Downloads/XPower/XPower/SVMenuOptionManager.swift; sourceTree = "<group>"; };
+		10C0CEAE1F2136BA00911A01 /* SVSlidingPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVSlidingPanelViewController.swift; path = ../../../Downloads/XPower/XPower/SVSlidingPanelViewController.swift; sourceTree = "<group>"; };
+		10C0CEB11F21448000911A01 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = xPower/SignUpViewController.swift; sourceTree = "<group>"; };
+		10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = ../../../Downloads/XPower/XPower/ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGetMessageModel.swift; path = ../../../Downloads/XPower/XPower/ChatGetMessageModel.swift; sourceTree = "<group>"; };
+		10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTableViewCell.swift; path = ../../../Downloads/XPower/XPower/ChatTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEB61F21A0A200911A01 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../../../Downloads/XPower/XPower/ChatViewController.swift; sourceTree = "<group>"; };
+		10C0CEB81F21A0A200911A01 /* FavoriteGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteGetModel.swift; path = ../../../Downloads/XPower/XPower/FavoriteGetModel.swift; sourceTree = "<group>"; };
+		10C0CEB91F21A0A200911A01 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteViewController.swift; path = ../../../Downloads/XPower/XPower/FavoriteViewController.swift; sourceTree = "<group>"; };
+		10C0CEBA1F21A0A200911A01 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = ../../../Downloads/XPower/XPower/Friend.swift; sourceTree = "<group>"; };
+		10C0CEBB1F21A0A200911A01 /* FriendListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendListModel.swift; path = ../../../Downloads/XPower/XPower/FriendListModel.swift; sourceTree = "<group>"; };
+		10C0CEBC1F21A0A200911A01 /* FriendRequestListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestListModel.swift; path = ../../../Downloads/XPower/XPower/FriendRequestListModel.swift; sourceTree = "<group>"; };
+		10C0CEBD1F21A0A200911A01 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendRequestTableViewCell.swift; path = ../../../Downloads/XPower/XPower/FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEBE1F21A0A200911A01 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendViewController.swift; path = ../../../Downloads/XPower/XPower/FriendViewController.swift; sourceTree = "<group>"; };
+		10C0CEBF1F21A0A200911A01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../Downloads/XPower/XPower/HomeViewController.swift; sourceTree = "<group>"; };
+		10C0CEC11F21A0A200911A01 /* LeftMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuHeaderView.swift; path = ../../../Downloads/XPower/XPower/LeftMenuHeaderView.swift; sourceTree = "<group>"; };
+		10C0CEC21F21A0A200911A01 /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewCell.swift; path = ../../../Downloads/XPower/XPower/LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEC31F21A0A200911A01 /* LeftMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeftMenuTableViewController.swift; path = ../../../Downloads/XPower/XPower/LeftMenuTableViewController.swift; sourceTree = "<group>"; };
+		10C0CEC41F21A0A200911A01 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../../../Downloads/XPower/XPower/Message.swift; sourceTree = "<group>"; };
+		10C0CEC51F21A0A200911A01 /* PointsTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointsTabbarViewController.swift; path = ../../../Downloads/XPower/XPower/PointsTabbarViewController.swift; sourceTree = "<group>"; };
+		10C0CEC61F21A0A200911A01 /* PointTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTable.swift; path = ../../../Downloads/XPower/XPower/PointTable.swift; sourceTree = "<group>"; };
+		10C0CEC71F21A0A200911A01 /* PointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointTableViewCell.swift; path = ../../../Downloads/XPower/XPower/PointTableViewCell.swift; sourceTree = "<group>"; };
+		10C0CEC81F21A0A200911A01 /* PointTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PointTableViewCell.xib; path = ../../../Downloads/XPower/XPower/PointTableViewCell.xib; sourceTree = "<group>"; };
+		10C0CEC91F21A0A200911A01 /* PointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointViewController.swift; path = ../../../Downloads/XPower/XPower/PointViewController.swift; sourceTree = "<group>"; };
+		10C0CECA1F21A0A200911A01 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressCollectionViewCell.swift; path = ../../../Downloads/XPower/XPower/ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		10C0CECB1F21A0A200911A01 /* ProgressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressModel.swift; path = ../../../Downloads/XPower/XPower/ProgressModel.swift; sourceTree = "<group>"; };
+		10C0CECC1F21A0A200911A01 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = ../../../Downloads/XPower/XPower/ProgressView.swift; sourceTree = "<group>"; };
+		10C0CECD1F21A0A200911A01 /* RecentDeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentDeedModel.swift; path = ../../../Downloads/XPower/XPower/RecentDeedModel.swift; sourceTree = "<group>"; };
+		10C0CECE1F21A0A200911A01 /* RecentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecentViewController.swift; path = ../../../Downloads/XPower/XPower/RecentViewController.swift; sourceTree = "<group>"; };
+		10C0CECF1F21A0A200911A01 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportViewController.swift; path = ../../../Downloads/XPower/XPower/ReportViewController.swift; sourceTree = "<group>"; };
+		10C0CED01F21A0A200911A01 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../../Downloads/XPower/XPower/Request.swift; sourceTree = "<group>"; };
+		10C0CED11F21A0A200911A01 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreViewController.swift; path = ../../../Downloads/XPower/XPower/ScoreViewController.swift; sourceTree = "<group>"; };
+		10C0CED21F21A0A200911A01 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../../../Downloads/XPower/XPower/SettingViewController.swift; sourceTree = "<group>"; };
+		10C0CED41F21A0A200911A01 /* String+AES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+AES.swift"; path = "../../../Downloads/XPower/XPower/String+AES.swift"; sourceTree = "<group>"; };
+		10C0CED51F21A0A200911A01 /* TasksList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksList.swift; path = ../../../Downloads/XPower/XPower/TasksList.swift; sourceTree = "<group>"; };
+		10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XPower.xcdatamodel; sourceTree = "<group>"; };
+		10C0CF0B1F21B3ED00911A01 /* xPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xPower.entitlements; sourceTree = "<group>"; };
+		10C0CF131F22422600911A01 /* xPower-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xPower-Bridging-Header.h"; sourceTree = "<group>"; };
+		10C0CF141F22422700911A01 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainWrapper.h; path = ../../../Downloads/KeychainWrapper/KeychainWrapper.h; sourceTree = "<group>"; };
+		10C0CF151F22422700911A01 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainWrapper.m; path = ../../../Downloads/KeychainWrapper/KeychainWrapper.m; sourceTree = "<group>"; };
 		A1F0571ABCC34DAB654C757C /* Pods-xPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xPower/Pods-xPower.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +132,45 @@
 		101B6FB51F1D457B0082B680 = {
 			isa = PBXGroup;
 			children = (
+				10C0CF141F22422700911A01 /* KeychainWrapper.h */,
+				10C0CF151F22422700911A01 /* KeychainWrapper.m */,
+				10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */,
+				10C0CEB31F21A0A200911A01 /* ChangePasswordViewController.swift */,
+				10C0CEB41F21A0A200911A01 /* ChatGetMessageModel.swift */,
+				10C0CEB51F21A0A200911A01 /* ChatTableViewCell.swift */,
+				10C0CEB61F21A0A200911A01 /* ChatViewController.swift */,
+				10C0CEB81F21A0A200911A01 /* FavoriteGetModel.swift */,
+				10C0CEB91F21A0A200911A01 /* FavoriteViewController.swift */,
+				10C0CEBA1F21A0A200911A01 /* Friend.swift */,
+				10C0CEBB1F21A0A200911A01 /* FriendListModel.swift */,
+				10C0CEBC1F21A0A200911A01 /* FriendRequestListModel.swift */,
+				10C0CEBD1F21A0A200911A01 /* FriendRequestTableViewCell.swift */,
+				10C0CEBE1F21A0A200911A01 /* FriendViewController.swift */,
+				10C0CEBF1F21A0A200911A01 /* HomeViewController.swift */,
+				10C0CEC11F21A0A200911A01 /* LeftMenuHeaderView.swift */,
+				10C0CEC21F21A0A200911A01 /* LeftMenuTableViewCell.swift */,
+				10C0CEC31F21A0A200911A01 /* LeftMenuTableViewController.swift */,
+				10C0CEC41F21A0A200911A01 /* Message.swift */,
+				10C0CEC51F21A0A200911A01 /* PointsTabbarViewController.swift */,
+				10C0CEC61F21A0A200911A01 /* PointTable.swift */,
+				10C0CEC71F21A0A200911A01 /* PointTableViewCell.swift */,
+				10C0CEC81F21A0A200911A01 /* PointTableViewCell.xib */,
+				10C0CEC91F21A0A200911A01 /* PointViewController.swift */,
+				10C0CECA1F21A0A200911A01 /* ProgressCollectionViewCell.swift */,
+				10C0CECB1F21A0A200911A01 /* ProgressModel.swift */,
+				10C0CECC1F21A0A200911A01 /* ProgressView.swift */,
+				10C0CECD1F21A0A200911A01 /* RecentDeedModel.swift */,
+				10C0CECE1F21A0A200911A01 /* RecentViewController.swift */,
+				10C0CECF1F21A0A200911A01 /* ReportViewController.swift */,
+				10C0CED01F21A0A200911A01 /* Request.swift */,
+				10C0CED11F21A0A200911A01 /* ScoreViewController.swift */,
+				10C0CED21F21A0A200911A01 /* SettingViewController.swift */,
+				10C0CED41F21A0A200911A01 /* String+AES.swift */,
+				10C0CED51F21A0A200911A01 /* TasksList.swift */,
+				10C0CEB11F21448000911A01 /* SignUpViewController.swift */,
+				10C0CEAD1F2136BA00911A01 /* SVMenuOptionManager.swift */,
+				10C0CEAE1F2136BA00911A01 /* SVSlidingPanelViewController.swift */,
+				10C0CEAB1F21347800911A01 /* CommonViewController.swift */,
 				10C0CEA91F20104800911A01 /* Constants.swift */,
 				10C0CEA71F2004AF00911A01 /* LoginModel.swift */,
 				10C0CEA51F20038E00911A01 /* WebServiceFactory.swift */,
@@ -62,6 +180,7 @@
 				101B6FBF1F1D457B0082B680 /* Products */,
 				3BAA4E707E98BFE17F4C8A8D /* Pods */,
 				291D0490E5725D4803D46C61 /* Frameworks */,
+				10C0CF131F22422600911A01 /* xPower-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +195,7 @@
 		101B6FC01F1D457B0082B680 /* xPower */ = {
 			isa = PBXGroup;
 			children = (
+				10C0CF0B1F21B3ED00911A01 /* xPower.entitlements */,
 				101B6FC11F1D457B0082B680 /* AppDelegate.swift */,
 				101B6FC31F1D457B0082B680 /* LoginViewController.swift */,
 				101B6FC51F1D457B0082B680 /* Main.storyboard */,
@@ -138,7 +258,14 @@
 				TargetAttributes = {
 					101B6FBD1F1D457B0082B680 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ECH55NGWE4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -165,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C0CEF11F21A0A200911A01 /* PointTableViewCell.xib in Resources */,
 				101B6FCC1F1D457B0082B680 /* LaunchScreen.storyboard in Resources */,
 				101B6FC91F1D457B0082B680 /* Assets.xcassets in Resources */,
 				101B6FC71F1D457B0082B680 /* Main.storyboard in Resources */,
@@ -226,13 +354,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C0CEF01F21A0A200911A01 /* PointTableViewCell.swift in Sources */,
+				10C0CEB21F21448000911A01 /* SignUpViewController.swift in Sources */,
+				10C0CEDD1F21A0A200911A01 /* ChatGetMessageModel.swift in Sources */,
 				10C0CEA41F20037B00911A01 /* WebServiceManager.swift in Sources */,
 				10C0CEA81F2004AF00911A01 /* LoginModel.swift in Sources */,
+				10C0CEFB1F21A0A200911A01 /* SettingViewController.swift in Sources */,
+				10C0CEED1F21A0A200911A01 /* Message.swift in Sources */,
+				10C0CEE71F21A0A200911A01 /* FriendViewController.swift in Sources */,
+				10C0CEE21F21A0A200911A01 /* FavoriteViewController.swift in Sources */,
+				10C0CEEF1F21A0A200911A01 /* PointTable.swift in Sources */,
 				101B6FC41F1D457B0082B680 /* LoginViewController.swift in Sources */,
 				10C0CEA61F20038E00911A01 /* WebServiceFactory.swift in Sources */,
+				10C0CEEA1F21A0A200911A01 /* LeftMenuHeaderView.swift in Sources */,
 				10C0CEAA1F20104800911A01 /* Constants.swift in Sources */,
+				10C0CEFA1F21A0A200911A01 /* ScoreViewController.swift in Sources */,
+				10C0CEF81F21A0A200911A01 /* ReportViewController.swift in Sources */,
+				10C0CEFD1F21A0A200911A01 /* String+AES.swift in Sources */,
+				10C0CEE41F21A0A200911A01 /* FriendListModel.swift in Sources */,
+				10C0CEF91F21A0A200911A01 /* Request.swift in Sources */,
+				10C0CEEC1F21A0A200911A01 /* LeftMenuTableViewController.swift in Sources */,
+				10C0CEF51F21A0A200911A01 /* ProgressView.swift in Sources */,
+				10C0CEE81F21A0A200911A01 /* HomeViewController.swift in Sources */,
+				10C0CEAF1F2136BA00911A01 /* SVMenuOptionManager.swift in Sources */,
+				10C0CEAC1F21347800911A01 /* CommonViewController.swift in Sources */,
 				10C0CEA21F1FFFB800911A01 /* ImageViewExtension.swift in Sources */,
+				10C0CEF61F21A0A200911A01 /* RecentDeedModel.swift in Sources */,
+				10C0CEF71F21A0A200911A01 /* RecentViewController.swift in Sources */,
+				10C0CEEB1F21A0A200911A01 /* LeftMenuTableViewCell.swift in Sources */,
+				10C0CEEE1F21A0A200911A01 /* PointsTabbarViewController.swift in Sources */,
+				10C0CF161F22422700911A01 /* KeychainWrapper.m in Sources */,
+				10C0CF0A1F21A75F00911A01 /* XPower.xcdatamodeld in Sources */,
+				10C0CEDC1F21A0A200911A01 /* ChangePasswordViewController.swift in Sources */,
+				10C0CEF41F21A0A200911A01 /* ProgressModel.swift in Sources */,
+				10C0CEE31F21A0A200911A01 /* Friend.swift in Sources */,
+				10C0CEDE1F21A0A200911A01 /* ChatTableViewCell.swift in Sources */,
+				10C0CEE61F21A0A200911A01 /* FriendRequestTableViewCell.swift in Sources */,
+				10C0CEF21F21A0A200911A01 /* PointViewController.swift in Sources */,
 				101B6FC21F1D457B0082B680 /* AppDelegate.swift in Sources */,
+				10C0CEDF1F21A0A200911A01 /* ChatViewController.swift in Sources */,
+				10C0CEE11F21A0A200911A01 /* FavoriteGetModel.swift in Sources */,
+				10C0CEE51F21A0A200911A01 /* FriendRequestListModel.swift in Sources */,
+				10C0CEFE1F21A0A200911A01 /* TasksList.swift in Sources */,
+				10C0CEF31F21A0A200911A01 /* ProgressCollectionViewCell.swift in Sources */,
+				10C0CEB01F2136BA00911A01 /* SVSlidingPanelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +521,16 @@
 			baseConfigurationReference = A1F0571ABCC34DAB654C757C /* Pods-xPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = xPower/xPower.entitlements;
+				DEVELOPMENT_TEAM = ECH55NGWE4;
 				INFOPLIST_FILE = xPower/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sm.xPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xPower-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -370,11 +540,15 @@
 			baseConfigurationReference = 01C5020DDE26E913C23B60F4 /* Pods-xPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = xPower/xPower.entitlements;
+				DEVELOPMENT_TEAM = ECH55NGWE4;
 				INFOPLIST_FILE = xPower/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sm.xPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "xPower-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -401,6 +575,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10C0CF071F21A75F00911A01 /* XPower.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */,
+			);
+			currentVersion = 10C0CF081F21A75F00911A01 /* XPower.xcdatamodel */;
+			name = XPower.xcdatamodeld;
+			path = ../../../Downloads/XPower/XPower/XPower.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 101B6FB61F1D457B0082B680 /* Project object */;
 }
