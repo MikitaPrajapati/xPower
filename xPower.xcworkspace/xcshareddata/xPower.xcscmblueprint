@@ -7,20 +7,10 @@
     "E9D31E1BBA5119F52D50F107B5A9B2A04D9DA9FB" : 9223372036854775807,
     "E8782C85E8389363608E38A149DCBF41EA8B24EA" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C75D9488-F438-4AA3-BD5C-A692AE16656A",
-  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "E9D31E1BBA5119F52D50F107B5A9B2A04D9DA9FB" : "xPower\/",
-    "E8782C85E8389363608E38A149DCBF41EA8B24EA" : "..\/..\/Downloads\/XPower"
-  },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "xPower",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xPower.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JayrajGohil\/XPower.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8782C85E8389363608E38A149DCBF41EA8B24EA"
-    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MikitaPrajapati\/xPower",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
